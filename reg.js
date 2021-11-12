@@ -26,7 +26,7 @@ function validate()
         
     }
     var password = document.getElementById('password1').value;
-    if (password == password1)
+    if (password.value == password1.value)
     {
         alert("Password is  matching");
         
